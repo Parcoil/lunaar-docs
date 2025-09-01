@@ -35,6 +35,24 @@ pnpm install
 pnpm start
 ```
 
+## Setting up Luna AI
+
+### 1. Get a Groq API Key
+
+1. Visit [Groq Console](https://console.groq.com/)
+2. Sign up or log in to your account
+3. Navigate to API Keys section
+4. Create a new API key
+5. Copy the API key (it starts with `gsk_`)
+
+### 2. Configure Environment Variables
+
+Create a `.env` file in your project root with:
+
+```bash
+GROQ_API_KEY=your_actual_groq_api_key_here
+```
+
 ## Updating Lunaar
 
 To keep Lunaar up to date (highly recommended to run once a week):
