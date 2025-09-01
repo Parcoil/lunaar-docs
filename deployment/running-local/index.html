@@ -472,6 +472,39 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#setting-up-luna-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up Luna AI
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Setting up Luna AI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-get-a-groq-api-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Get a Groq API Key
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-configure-environment-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Configure Environment Variables
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#updating-lunaar" class="md-nav__link">
     <span class="md-ellipsis">
       Updating Lunaar
@@ -568,6 +601,39 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#setting-up-luna-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up Luna AI
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Setting up Luna AI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-get-a-groq-api-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Get a Groq API Key
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-configure-environment-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Configure Environment Variables
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#updating-lunaar" class="md-nav__link">
     <span class="md-ellipsis">
       Updating Lunaar
@@ -616,6 +682,19 @@
 </code></pre></div>
 <h2 id="step-3-start-lunaar">Step 3: Start Lunaar<a class="headerlink" href="#step-3-start-lunaar" title="Permanent link">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>pnpm<span class="w"> </span>start
+</code></pre></div>
+<h2 id="setting-up-luna-ai">Setting up Luna AI<a class="headerlink" href="#setting-up-luna-ai" title="Permanent link">&para;</a></h2>
+<h3 id="1-get-a-groq-api-key">1. Get a Groq API Key<a class="headerlink" href="#1-get-a-groq-api-key" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Visit <a href="https://console.groq.com/">Groq Console</a></li>
+<li>Sign up or log in to your account</li>
+<li>Navigate to API Keys section</li>
+<li>Create a new API key</li>
+<li>Copy the API key (it starts with <code>gsk_</code>)</li>
+</ol>
+<h3 id="2-configure-environment-variables">2. Configure Environment Variables<a class="headerlink" href="#2-configure-environment-variables" title="Permanent link">&para;</a></h3>
+<p>Create a <code>.env</code> file in your project root with:</p>
+<div class="highlight"><pre><span></span><code><span class="nv">GROQ_API_KEY</span><span class="o">=</span>your_actual_groq_api_key_here
 </code></pre></div>
 <h2 id="updating-lunaar">Updating Lunaar<a class="headerlink" href="#updating-lunaar" title="Permanent link">&para;</a></h2>
 <p>To keep Lunaar up to date (highly recommended to run once a week):</p>
