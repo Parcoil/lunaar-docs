@@ -5,7 +5,7 @@ You can BYOD (Bring Your Own Domain) to Lunaar
 ## Requirements
 
 - Must be in the Discord server and create a ticket to activate your link (may change soon)
-- A domain (if you don't have one, you can get one [here](https://example.com). Or get a free subdomain [here](https://example.com/free-subdomain))
+- A domain (if you don't have one, you can get one [here](https://namecheap.com). Or get a free subdomain [here](https://example.com/free-subdomain))
 
 ## Steps
 

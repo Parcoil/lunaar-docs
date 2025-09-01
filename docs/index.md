@@ -6,6 +6,12 @@
 
 ---
 
+[Github Link](https://github.com/parcoil/lunaar.org)
+
+[Live Site Link](https:/lunaar.org)
+
+[Self Hosting](/deployment/hosting)
+
 ## 🚀 Features
 
 - **Modern UI:** Clean, responsive, and easy to use.

@@ -1,10 +1,16 @@
 site_name: Lunaar Docs
 site_description: "Lunaar Documentation"
+repo_url: https://github.com/parcoil/lunaar.org
+extra_css:
+  - css/extra.css
+extra:
+  generator: false
 
 theme:
   name: material
   logo: "https://lunaar.org/media/logo.svg"
   favicon: "https://lunaar.org/media/logo.svg"
+
   palette:
     # Auto mode
     - media: "(prefers-color-scheme)"
@@ -15,8 +21,8 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: black
-      accent: purple
+      primary: white
+      accent: deep purple
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
